@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register User</title>
+</head>
+<body>
+
+<h1>Register Here</h1><br>
+
+<form action="register" method="post">
+
+<table>
+
+<tr>
+<th>First Name:</th>
+<td> <input type="text" name="first" placeholder="Enter Firstname" required="required"></td>
+</tr>
+
+<tr>
+<th>Second Name:</th>
+<td> <input type="text" name="second" placeholder="Enter Firstname" required="required"></td>
+</tr>
+
+<tr>
+<th>Mobile:</th>
+<td> <input type="tel" name="mobile" placeholder="Enter Mobileno" required="required" pattern="{0-9}[10]"></td>
+</tr>
+
+<tr>
+<th>Email:</th>
+<td> <input type="email" name="email" placeholder="Enter Email"></td>
+</tr>
+
+<tr>
+<th>Gender:</th>
+<td> 
+<input type="radio" name="gender" value="Male"  required="required">Male
+<input type="radio" name="gender" value="Female">Female
+</td>
+</tr>
+
+<tr>
+<th>Create Password:</th>
+<th><input type="password" name="password1" id="pass" placeholder="Enter Password" required="required"></th>
+</tr>
+
+<tr>
+<th>Confirm Password:</th>
+<th><input type="password" name="password2" id="cpass" placeholder="Confirm Password" required="required"></th>
+</tr>
+
+<tr>
+<th>DOB:</th>
+<td> <input type="date" name="dob" placeholder="Enter DOB" required="required"></td>
+</tr>
+
+<tr>
+<th><button type="reset">Cancel</button></th>
+<th><button>Register</button></th>
+</tr>
+
+</table>
+</form>
+
+<br>
+<a href="Login.html">Already have account? Click here to Login</a>
+<br><br>
+<a href="Home.html"><button>Home</button></a>
+
+</body>
+</html>
